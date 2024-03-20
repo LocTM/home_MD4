@@ -35,7 +35,11 @@ nav.navbar {
     top: 0px;
     z-index: 100;
 }
-
+.nav-center {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
 
 /* nav left */
 
@@ -50,7 +54,7 @@ img.logo {
     align-items: center;
 }
 
-.nav-left ul li {
+.nav-right ul li {
     display: inline-block;
     list-style: none;
 }
@@ -75,6 +79,7 @@ ul.navlogo li img {
     border-radius: 20px;
     align-items: center;
     padding: 0px 15px;
+    margin-left: -15px
 }
 
 .search-box img {
